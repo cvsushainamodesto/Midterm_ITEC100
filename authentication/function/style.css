@@ -1,0 +1,428 @@
+
+  .frame{
+  position: absolute;
+  top: 59%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  padding:50px 40px 40px 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.3);
+  border: 1px solid orange;
+
+}
+.user{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px/2);
+  left: calc(50% - 50px);
+}
+.userb{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px/2);
+  left: calc(50% - 50px);
+}
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  padding: 0 0 20px;
+  color:orange;
+}
+.frame p {
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+  color: lightblue;
+}
+.frame input{
+  width: 300px;
+  margin-bottom: 10px;
+}
+  body{
+    font-family: sans-serif;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+  a,#forgot{
+    text-decoration: none;
+    color: deepskyblue;
+  }
+  a:hover{
+    color:cyan;
+  }
+ 
+  /*--END--*/
+
+  /*---Activity Log---*/
+  #header{
+    width: 97.3%;
+    
+  }
+  #log_table,#table_header{
+    width: 100%;
+    color: rgb(255,255,255,.8);
+    text-align: center;
+  }
+  #log_table tr:hover{
+    color: cyan;
+    cursor: pointer;
+    transition: .2s;
+  }
+  #table_header th{
+    font-size: 24px;
+    color: cyan;
+  }
+  
+  #search_area input{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 16px;
+    border-radius: 10px 5px;
+  }
+  #search{
+    width: 500px;
+    height: 30px;
+    text-align: center;
+  }
+  /*--END--*/
+.homeBox{
+    box-sizing: border-box;
+    color: black;
+    border-radius: 5px 5px;
+    background: white;
+    border: orange 1px solid;
+    width: 380px;
+    height: 400px;
+    padding-bottom: 30px;
+  }
+  .homeBox button{
+    color: white;
+    font-size: 17px;
+    background: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 12.5%;
+    border: solid 1px green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 265px;
+    height: 8vh;
+  }
+  /*---------------------LOGIN BOX------------------------*/
+  .login_container,.register_container{
+    margin-top: 8%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .loginBox{
+    box-sizing: border-box;
+    color: black;
+    border-radius: 5px 5px;
+    background: white;
+    border: orange 1px solid;
+    width: 380px;
+    height: 400px;
+    padding-bottom: 30px;
+  }
+  .register_box{
+    box-sizing: border-box;
+    color: black;
+    border-radius: 5px 5px;
+    background: white;
+    border: orange 1px solid;
+    width: 380px;
+    height: 500px;
+    padding-bottom: 30px;
+  }
+  #register {
+    margin-top: 2%;
+    text-align:center;
+    padding: 0;
+    color: green;
+    font-size: 14px;
+    float: center;
+  }
+  /*--LOGIN BUTTON--*/
+  .loginBox button,.register_box button{
+    color: white;
+    font-size: 17px;
+    background: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 12.5%;
+    border: solid 1px green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 265px;
+    height: 8vh;
+  }
+  /*--LOGIN BUTTON (HOVER)--*/
+  .loginBox button:hover,.register_box button:hover,.body_wrapper button:hover{
+    background: rgb(20,150,120,.5);
+    color: green;
+  }
+  /*--LOGIN INPUT BOX--*/
+  .loginBox  input,.register_box input{ 
+    width: 240px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    margin-left: 12.5%;
+    background: rgba(130,130,100,0.1);
+    padding: 10px;
+    font-size: 13px;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    border-bottom: orange solid 2px;
+    
+  }
+  #forgot{
+    margin: 0;
+    float: left;
+    margin-left: 12.5%;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .label_pointer{
+    font-size: 16px;
+    margin-left: 12.5%;
+    color: green;
+    float: left;
+    cursor: pointer;
+    margin-bottom: -2%;
+    margin-top: 3%;
+  }
+  
+  }
+  #login_label{
+    color: cyan;
+    font-size: 45px;
+    font-weight: bolder;
+    text-decoration:underline solid cyan 5px;
+    text-shadow: 4px 3px maroon;
+    box-shadow: 0px 0px 5px 1px cyan;
+    padding: 30px;
+    background-color: rgb(0,120,120,.8);
+    border-radius: 30px 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  #login_label:hover{
+    transition: .5s;
+    background-color: rgb(0,120,120,.6);
+    border-radius: 5px 30px;
+  }
+  #login_input,#register_input{
+    margin-top: 7%;
+  }
+  /*---------------------End of LOGIN BOX------------------------*/
+
+
+
+  /*-----------------Modal Authentication-------------------*/
+   .modal,.modal_message {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+    background-color: white; /* Black w/ opacity */
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+  /* Modal Header */
+  .modal-header,.modal_message_header {
+    padding: 2px 16px;
+    background-color: orange;
+    color: black;
+    border:green 1px solid;
+  }
+  .modal-header h2,.modal_message_header h2{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  /* Modal Body */
+  .modal-body,.modal_message_body,.modal-body-forgot{
+    padding: 8%;
+    background-color: white;
+    color: green;
+  }
+  .modal_message_body_log{
+    padding: 2%;
+    background-color: white;
+  }
+  #msg{
+    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+  }
+  .modal-body label{
+    color: black;
+  }
+  
+  /* Modal Footer */
+  .modal-footer,.modal_message_footer{
+      background-color: orange;
+      border:solid 1px green;
+      color: white;
+  }
+  
+  /* The Close Button */
+  .close,.modal_message_close,#close{
+   
+    color: green;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,#close:hover,
+  .close:focus,.modal_message_close:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* The Resend Button */
+  .resend {
+    float: left;
+    padding: 10px 13px 8px 13px;
+    margin: 20px 0px 20px 20px;
+  }
+  /*---Submit Button--*/
+  .csub,.ok,.ok_log{
+    width: 100px;
+    height: 40px;
+  }
+  .ok_log{
+    margin: 3%;
+  }
+  .ok{
+    margin: 5%;
+  }
+  .csub{
+    margin: 20px 0px 20px 100px;
+  }
+  #submit_forgot{
+    margin-left: 0;
+  }
+  .csub,.resend,.ok,.ok_log{
+   
+    background: orange;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    border:2px solid green;
+  }
+  .resend:hover,.csub:hover,.ok:hover {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  /* Modal Content */
+  .modal-content,.modal_message_content,.modal_message_content_log{
+    position: relative;
+    margin: auto;
+    border: 1px solid gray;
+    box-shadow: 100px red;
+    width: 370px;
+    animation-name: animatetop;
+    animation-duration: 1.2s;
+    margin-top: 18%;
+    background: rgb(0,0,0.8);
+  }
+  .modal_message_content_log{
+    margin-top: 3%;
+    width: 800px;
+  }
+  .modal-body input,.modal-body-forgot input{ 
+    width: 230px; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    font-size: 13px;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-top: 10px;
+    background: rgba(130,130,100,0.1);
+    border-bottom: green solid 2px;
+    box-shadow: 3px 2px white;
+  }
+  #modal_message_content_forgot{
+    margin-top: 13.5%;
+  }
+  .modal-body-forgot{
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  .modal-body-forgot input{
+    width: 250px;
+    margin-top: 1%;
+  }
+  .forgot_pointer{
+    padding-top: 20px;
+    font-size: 16px;
+    color: green;
+    float: left;
+    cursor: pointer;
+  }
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+  /*-----------------End of Modal Authentication-------------------*/
+     
+.second_page{
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  left: 30%;
+  border-right: 7px solid orange;
+  border-bottom: green 5px solid;
+  opacity: 80%;
+
+}
+.second_page button{
+    color: white;
+    font-size: 17px;
+    background: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 12.5%;
+    border: solid 1px green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 265px;
+    height: 8vh;
+    position: absolute;
+    left: 50%;
+    top: 59%;
+  }
+  /*--LOGIN BUTTON (HOVER)--*/
+  .second_page button:hover{
+    background: rgb(20,150,120,.5);
+    color: green;
+  }
+  /*----End Landing page---*/
